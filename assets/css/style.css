@@ -18,10 +18,13 @@ a {
 p {
     font-size: 16px;
 }
+
 /*Header Styling*/
+
 .seo {
-    color: #ffffff;
+    color: hsl(0, 16%, 84%);
 }
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,12 +56,15 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 /*Content Class Styling*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 .content-articles {
     margin-bottom: 20px;
     padding: 50px;
@@ -68,16 +74,14 @@ p {
     color: #ffffff;
 }
 
-.content-articles img{
-    max-height: 200px;
-}
-
 .content-articles h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Content Images*/
+.content-articles img{
+    max-height: 200px;
+}
 
 .float-left {
     float: left;
